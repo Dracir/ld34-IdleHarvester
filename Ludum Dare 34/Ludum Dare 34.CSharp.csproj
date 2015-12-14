@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{48A7114A-9446-8765-8EA1-D80A1D9DA441}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.3.0f4</UnityVersion>
+    <RootNamespace>
+    </RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_0;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_0;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\AudioDelayedOption.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\AudioItemManager.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\AudioManager.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\AudioModifier.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\AudioOption.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\AudioRTPC.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\AudioSpatializer.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\AudioValue.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Items\AudioContainerItem.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Items\AudioDynamicData.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Items\AudioDynamicItem.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Items\AudioEnumeratorContainerItem.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Items\AudioItem.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Items\AudioMixContainerItem.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Items\AudioRandomContainerItem.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Items\AudioSequenceContainerItem.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Items\AudioSourceItem.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Items\AudioSwitchContainerItem.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Settings\AudioContainerSettings.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Settings\AudioContainerSourceData.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Settings\AudioDynamicSettings.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Settings\AudioEnumeratorContainerSettings.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Settings\AudioMixContainerSettings.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Settings\AudioRandomContainerSettings.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Settings\AudioSequenceContainerSettings.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Settings\AudioSettingsBase.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Settings\AudioSourceSettings.cs" />
+    <Compile Include="Assets\Pseudo\AudioTools\AudioManager\Settings\AudioSwitchContainerSettings.cs" />
+    <Compile Include="Assets\Pseudo\DesignTools\Architect\Data\LinkerTileset\ArchitectLinker.cs" />
+    <Compile Include="Assets\Pseudo\DesignTools\Architect\Data\LinkerTileset\TileSet.cs" />
+    <Compile Include="Assets\Pseudo\DesignTools\Architect\Data\LinkerTileset\TileType.cs" />
+    <Compile Include="Assets\Pseudo\DesignTools\Architect\Data\Map\LayerData.cs" />
+    <Compile Include="Assets\Pseudo\DesignTools\Architect\Data\Map\TileData.cs" />
+    <Compile Include="Assets\Pseudo\DesignTools\Architect\IngameEditor\AmeCameraControl.cs" />
+    <Compile Include="Assets\Pseudo\DesignTools\Architect\IngameEditor\Architect.cs" />
+    <Compile Include="Assets\Pseudo\DesignTools\Architect\IngameEditor\Interface\ArchitectMenus.cs" />
+    <Compile Include="Assets\Pseudo\DesignTools\Architect\IngameEditor\Interface\TilesetItemsPanel.cs" />
+    <Compile Include="Assets\Pseudo\DesignTools\Architect\SaveLoad\SaveWorld.cs" />
+    <Compile Include="Assets\Pseudo\DesignTools\Architect\SaveLoad\WorldOpener.cs" />
+    <Compile Include="Assets\Pseudo\DesignTools\UIFactory\UIFactory.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\ButtonAttribute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\ClampAttribute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\CustomAttributeBase.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\DisableAttribute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\EmptyAttribute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\EnumFlagsAttribute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\LayerAttribute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\MaskAttribute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\MaxAttrinbute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\MinMaxSliderAttribute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\PolarAttribute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\PopupAttribute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\PropertyFieldAttribute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\ShowPropertiesAttribute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\SliderAttribute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Attributes\ToggleAttribute.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Utility\AssetDataBaseUtility.cs" />
+    <Compile Include="Assets\Pseudo\EditorTools\Utility\DrawUtility.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\ByteFlag.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\CachedValue.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\ComboSystem\ComboInputManager.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\ComboSystem\ComboMessenger.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\ComboSystem\ComboSequence.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\ComboSystem\ComboSequenceItem.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\ComboSystem\ComboSequenceManager.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\ComboSystem\ComboSystem.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\ComboSystem\IComboListener.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\DynamicValue\DynamicValue.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\Attributes\EntityRequiresAttribute.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\ComponentGroup.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\EntityEnums.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\EntityGroup.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\EntityJanitor.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\EntityManager.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\EntityMatch.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\EntityMatchGroup.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\EntityUtility.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\IEntity.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\IEntityGroup.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\IMessager.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\MessageGroup.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\Messager.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\MessagerGroup.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\PComponent.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Entity\PEntity.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Enums.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\AnimationCurveExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\AnimatorExtentions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\ArrayExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\AudioClipExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\AudioSourceExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\BinaryExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\BitArrayExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\BoolExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\BoxCollider2DExtentions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\CameraExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\ColorExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\DelegateExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\DictionaryExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\DoubleExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\EntityExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\EnumExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\FloatExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\GUITextExtentions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\GameObjectExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\IIdentifiableExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\INamableExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\InputExtentions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\IntExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\LayerMaskExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\ListExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\MaterialExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\MonoBehaviourExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\ObjectExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\QuaternionExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\RectExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\ReflectionExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\RendererExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\Rigidbody2DExtension.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\RigidbodyExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\SerializedPropertyExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\StringExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\TransformExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\TypeExtensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\Vector2Extensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\Vector3Extensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Extensions\Vector4Extensions.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\IdManager.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\InputManager\AxisBase.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\InputManager\InputAction.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\InputManager\InputManager.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\InputManager\InputUtility.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\InputManager\JoystickAxis.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\InputManager\JoystickButton.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\InputManager\KeyboardAxis.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\InputManager\KeyboardButton.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\InputManager\PlayerInput.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Interfaces\IClonable.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Interfaces\ICopyable.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Interfaces\IIdentifiable.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Interfaces\INamable.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Interfaces\IShowable.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Logger\PDebug.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Logger\ScreenLogger.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Logger\ScreenLoggerLine.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Math\Circle\Circle.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Math\MinMax\MinMax.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Math\PMath.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Math\PRandom.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Math\Points\Point2.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Oscillator.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\PMonoBehaviour.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\PScriptableObject.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\PersistentManagers.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\Attributes\DoNotInitializeAttribute.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\Attributes\InitializeContentAttribute.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\Attributes\InitializeValueAttribute.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\ComponentPool.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\GameObjectPool.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\IPoolElementSetter.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\IPoolInitializable.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\IPoolSetter.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\IPoolable.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\Pool.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\PoolArraySetter.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\PoolContentSetter.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\PoolElementContentSetter.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\PoolElementSetter.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\PoolHolder.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\PoolJanitor.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\PoolSetter.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\PoolUtility.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\PrefabPool.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\PrefabPoolManager.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\ScriptablePool.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Pool\TypePoolManager.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\RandomBag\Bag.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\RandomBag\RandomBag.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\RandomBag\RoundRobinBag.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\RandomBag\SimpleWeightedBag.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\RandomBag\Tests\RandomBagTest.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\RandomBag\Tests\RoundRobinBagTest.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\RandomBag\Tests\WeightedBagTest.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\RandomBag\WeightedBag.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\RoutineHolder.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\SerializableDictionary.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Serialization\BinarySerializer.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Serialization\BinaryUtility.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Serialization\IBinarySerializer.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Serialization\ObjectSerializer.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Singleton.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Smooth\SmoothFollow.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Smooth\SmoothMove.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Smooth\SmoothOscillate.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineCollisionEnter2DCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineCollisionEnterCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineCollisionExit2DCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineCollisionExitCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineCollisionStayCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineFixedUpdateCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineLateUpdateCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineOnCollisionStay2DCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineTriggerEnter2DCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineTriggerEnterCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineTriggerExit2DCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineTriggerExitCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineTriggerStay2DCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineTriggerStayCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Callers\StateMachineUpdateCaller.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\EmptyState.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Interfaces\IState.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Interfaces\IStateLayer.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Interfaces\IStateMachine.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Interfaces\IStateMachineCallable.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Interfaces\IStateMachineLayerable.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Interfaces\IStateMachineStateable.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\Interfaces\IStateMachineSwitchable.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\State.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\StateLayer.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\StateMachine.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\StateMachine\StateMachineUtility.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\TimeManager\TimeChannel.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\TimeManager\TimeComponent.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\TimeManager\TimeComponentBase.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\TimeManager\TimeManager.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Tween\FloatTweener.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Tween\Tweening.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Utility\CopyUtility.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Utility\ResourcesUtility.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Zones\CircleZone.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Zones\RectZone.cs" />
+    <Compile Include="Assets\Pseudo\GeneralTools\Zones\Zone2DBase.cs" />
+    <Compile Include="Assets\Pseudo\GraphicsTools\ParticleManager\ParticleEffect.cs" />
+    <Compile Include="Assets\Pseudo\GraphicsTools\ParticleManager\ParticleManager.cs" />
+    <Compile Include="Assets\Pseudo\MechanicsTools\FogOfWar\FogAgent.cs" />
+    <Compile Include="Assets\Pseudo\MechanicsTools\FogOfWar\FogOfWar.cs" />
+    <Compile Include="Assets\Pseudo\MechanicsTools\FogOfWar\LineOfSightInfo.cs" />
+    <Compile Include="Assets\Pseudo\MechanicsTools\FogOfWar\PointInfo.cs" />
+    <Compile Include="Assets\Pseudo\MechanicsTools\FogOfWar\PrimaryLineOfSight.cs" />
+    <Compile Include="Assets\Pseudo\MechanicsTools\FogOfWar\SecondaryLineOfSight.cs" />
+    <Compile Include="Assets\Pseudo\MechanicsTools\MazeGenerator\MazeChunk.cs" />
+    <Compile Include="Assets\Pseudo\MechanicsTools\MazeGenerator\MazeGenerator.cs" />
+    <Compile Include="Assets\Pseudo\PhysicsTools\ForceZone.cs" />
+    <Compile Include="Assets\Pseudo\PhysicsTools\GravityManager\Gravity2DComponent.cs" />
+    <Compile Include="Assets\Pseudo\PhysicsTools\GravityManager\GravityChannel.cs" />
+    <Compile Include="Assets\Pseudo\PhysicsTools\GravityManager\GravityComponent.cs" />
+    <Compile Include="Assets\Pseudo\PhysicsTools\GravityManager\GravityComponentBase.cs" />
+    <Compile Include="Assets\Pseudo\PhysicsTools\GravityManager\GravityManager.cs" />
+    <Compile Include="Assets\Pseudo\PhysicsTools\PhysicsZone.cs" />
+    <Compile Include="Assets\Pseudo\PhysicsTools\Raycast\MultipleRaycaster.cs" />
+    <Compile Include="Assets\Pseudo\PhysicsTools\Raycast\MultipleRaycaster2D.cs" />
+    <Compile Include="Assets\Pseudo\PhysicsTools\Raycast\Raycaster2DBase.cs" />
+    <Compile Include="Assets\Pseudo\PhysicsTools\Raycast\RaycasterBase.cs" />
+    <Compile Include="Assets\Scripts\Other\Money.cs" />
+    <Compile Include="Assets\Scripts\Other\PreviewTileComponent.cs" />
+    <Compile Include="Assets\Scripts\Plants\Growth\GrowthComponent.cs" />
+    <Compile Include="Assets\Scripts\Plants\Growth\MathComponent.cs" />
+    <Compile Include="Assets\Scripts\Plants\Growth\PlantStage.cs" />
+    <Compile Include="Assets\Scripts\Plants\Plant.cs" />
+    <Compile Include="Assets\Scripts\Plants\PlantComponents\DestroyOnPickUp.cs" />
+    <Compile Include="Assets\Scripts\Plants\PlantComponents\ReplanteOnPickup.cs" />
+    <Compile Include="Assets\Scripts\Plants\Upgrades\ColorUpgradeComponent.cs" />
+    <Compile Include="Assets\Scripts\Plants\Upgrades\DeactivateComponentUpgradeComponent.cs" />
+    <Compile Include="Assets\Scripts\Plants\Upgrades\QualityUpgradeComponent.cs" />
+    <Compile Include="Assets\Scripts\Plants\Upgrades\QuantityUpgradeComponent.cs" />
+    <Compile Include="Assets\Scripts\Plants\Upgrades\UpgradeStage.cs" />
+    <Compile Include="Assets\Scripts\Player\Harvester.cs" />
+    <Compile Include="Assets\Scripts\Player\HarvestingComponent.cs" />
+    <Compile Include="Assets\Scripts\Player\PlantPrefabs.cs" />
+    <Compile Include="Assets\Scripts\Player\SeedsHarvestedComponent.cs" />
+    <Compile Include="Assets\Scripts\Player\SelectedPlant.cs" />
+    <Compile Include="Assets\Scripts\Player\Upgrades\AddPickersComponent.cs" />
+    <Compile Include="Assets\Scripts\Player\Upgrades\IncreaseTimeScaleComponent.cs" />
+    <Compile Include="Assets\Scripts\stuff\NumberFormater.cs" />
+    <Compile Include="Assets\Scripts\Tiles\DirtTileComponent.cs" />
+    <Compile Include="Assets\Scripts\Tiles\PlantableTileComponent.cs" />
+    <Compile Include="Assets\Scripts\UI\MenuPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\PlantsPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\PlayerDataUI.cs" />
+    <Compile Include="Assets\Scripts\UI\UISkinColors.cs" />
+    <Compile Include="Assets\Scripts\Plants\Upgrades\ActivateComponentUpgradeComponent.cs" />
+    <Compile Include="Assets\Scripts\UI\UpgradePanel\MoneyUpgradePanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UpgradePanel\PlantPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UpgradePanel\PlantUpgradePanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UpgradePanel\UpgradeItemPanel.cs" />
+    <Compile Include="Assets\Scripts\UI\UpgradePanel\UpgradePanelBase.cs" />
+    <Compile Include="Assets\Scripts\UI\UpgradeTabPanel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Pseudo\MechanicsTools\FogOfWar\FogOfWar.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
